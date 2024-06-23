@@ -1,0 +1,1936 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+
+ul, ol, li{
+	list-style:none;
+}
+
+body{	
+	margin: 0 auto;	
+	font-family:"Arial";
+	font-size:12px;
+	width: 1248px;
+	background: url('../images/login.png')no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+div#menu ul li h3{
+	margin:0;
+	padding: 0;
+}
+div#contenido div#portadaimg{
+	/*background: url('../images/alborada.jpg') no-repeat;*/
+	/*border: 1px solid black;*/
+	width: 700px;
+	height: 200px;
+	background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    -o-background-size: contain;    
+	/*background-color: #F7F7F7;*/
+	float: left;
+}
+div#contenido div#rematesactivo{	
+	width: 400px;
+	height: 140px;
+	margin-top: 205px;	
+	min-height: 500px;
+}
+div#contenido div#lsremates{
+
+}
+div#pie ul{
+	text-align:center;
+}
+div#contenido{	
+	border: 1px solid black;
+	width: 1248px;
+	height: 348px;
+}
+div#pie div#menuh{	
+	margin-left: 400px;
+	margin-top: -7px;
+}
+div#pie div#menuh li{	
+	color:#696;	
+	margin-top: 6px;
+	padding:8px 10px;
+	height: 35px;
+	display:block;
+	font-weight: bold;
+	border-radius: 5px;
+	font-size: 12px;
+	border: 1px dashed #696;
+	float: left;	
+}
+div#pie div#menuh ul li:hover{
+	background-color: #696;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+div#contenido div#login{	
+	margin-left:950px;
+	margin-top: 120px;
+	width: 420px;
+}
+/*
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable{	
+	background: #ffffff url('images/ui-bg_flat_0_aaaaaa_40x100.png') repeat;
+	position: relative;
+	border: 0;
+	padding: .5em 1em;
+	background: none;
+	overflow: auto;
+
+}
+*/
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divlogin.ui-dialog-content.ui-widget-content form div#login h4 label.label{
+	display: block;
+	width: 55px;
+	margin-right: 55px;
+	float:left;
+	color: #000000;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divlogin.ui-dialog-content.ui-widget-content form div#login input#txtusuario,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divlogin.ui-dialog-content.ui-widget-content form div#login input#txtclave{
+	display: block;
+	margin: 5px;
+	border: 1px solid black;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divlogin.ui-dialog-content.ui-widget-content form div#login input#btningresar{
+	margin-left: 120px;
+}
+div#encabezado{
+	width: 1248px;
+}
+div#encabezado div#infolote div#infolote_cli{
+	border: 1px solid black;	
+	height: 290px;
+	width: 368px;
+	padding-left: 5px;
+	margin:5px 0 0 867px;
+}
+div#encabezado div#infolote div#infolote_cli label{	
+	width: 70px;
+	display: block;
+	float: left;
+	margin-bottom: 0;
+}
+div#encabezado div#infolote div#infolote_cli input[type="text"]{
+	border:none;
+	display: block;
+	margin-bottom: 0;
+	width: 270px;
+	background-color:inherit;
+}
+div#encabezado div#infolote div#infolote_cli p{
+	height: 15px;
+	margin-bottom: 2px;
+}
+div#encabezado div#infolote div#infolote_cre{
+	width: 200px;
+	margin-top: -55px;
+	margin-left: 960px;
+	color:red;
+}
+div#encabezado div#desarrollo_sub_rem{
+	width: 320px;
+	height: 227px;
+	margin:0px 0 0 5px;
+	border: 1px solid black;
+	overflow: scroll;
+	float:left;
+	overflow-x: hidden;
+}
+div#encabezado div#infolote div#infolote_rem{
+	border: 1px solid black;	
+	height: 227px;
+	width: 418px;
+	padding-left: 5px;
+	margin:5px 0 0 830px;
+}
+div#encabezado div#infolote div#infolote_rem label{	
+	width: 70px;
+	display: block;
+	float: left;
+	margin-bottom: 0;
+}
+div#encabezado div#infolote div#infolote_rem p{
+	height: 15px;
+	margin-bottom: 2px;
+}
+div#encabezado div#infolote input[type="button"]{
+	width: 100px;
+	border:1px solid black;	
+    border-radius: 5px;
+    margin-right: 10px;	
+    margin-top: -35px;
+}
+div#encabezado div#infolote input#btnabrir{
+	width: 416px;
+	margin-top: -21px;
+	margin-left: 831px;
+	margin-right: 0;
+	border: 1px solid black;
+	background-color: #3399CC;
+	border-radius: 2px;	
+}
+div#encabezado div#infolote input#btnabrir:hover{
+	background-color: #669999;
+}
+div#encabezado div#listadohistoricorem{
+	width: 400px;
+	height: 227px;
+	margin-left: 5px;
+	border: 1px solid black;
+	overflow: scroll;
+	overflow-x: hidden;	
+	float: left;
+}
+div#encabezado div#infolote input#btnsolicitarcredito{
+	margin-left: 965px;
+}
+div#encabezado div#infolote div#infolote_ope{
+	border: 1px solid black;	
+	height: 227px;
+	width: 268px;
+	padding-left: 5px;
+	margin:5px 0 0 975px;	
+}
+div#encabezado div#infolote div#infolote_ope p{
+	height: 15px;
+	margin-bottom: 2px;
+}
+div#encabezado div#oferta_op{
+	width: 160px;
+	height: 227px;
+	margin:0px 0 0 5px;
+	border: 1px solid black;
+	background-color: #999999;
+	float: left;
+}
+div#encabezado div#oferta_op div#ofertar_op input#txtmonto_op{
+	width: 110px;		
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight:bold;	
+	text-align: center;
+	border: none;
+	background-color: #99CC99;
+	color: black;	
+	border-radius: 5px;
+}
+div#encabezado div#oferta_op div#ofertar_op input#btnofertar_op{
+	width: 140px;
+	margin-left: 10px;	
+	margin-top: 8px;
+	font-size: 20px;
+	font-weight:bold;	
+	cursor: pointer;
+	border: none;
+	border:1px solid #FFFFFF;	
+    border-radius: 5px;
+}
+div#encabezado div#oferta_op div#ofertar_cerrar_op input#btnofertar_cerrar_op{
+	width: 140px;
+	margin-left: 10px;	
+	margin-top: 8px;
+	font-size: 12px;
+	font-weight:bold;	
+	cursor: pointer;
+	border: none;
+	border:1px solid #b6736a;	
+    border-radius: 5px;
+    background-color: #b6736a;
+    color: #ece7e7;
+}
+div#encabezado div#oferta_op div#ofertar_cerrar_op input#btnofertar_cerrar_op:hover{
+   background-color: #dab9b4;
+   color: #3c3b3b;
+}
+div#encabezado div#cerrarofertarModal.modal.fade.col-xs-4.in div div.modal-content div.modal-body select#lslotesco{
+	font-size: 14px;	
+}
+div#encabezado div#oferta_op div#ultimaoferta div.clsuo_op label{
+	display: block;
+	width: 100px;
+	margin-left: 50px;
+}
+div#encabezado div#oferta_op div#ultimaoferta div.clsuo_op input#txtuo_op{
+	border-radius: 5px;
+	border: 1px solid black;
+	z-index:999;
+}
+div#encabezado div#listadohistoricoop{
+	width: 400px;
+	height: 227px;
+	margin-left: 5px;
+	border: 1px solid black;
+	overflow: scroll;
+	overflow-x: hidden;	
+	float: left;
+}
+div#encabezado div#oferta_cliente_op{
+	width: 399px;
+	height: 227px;
+	margin-left: 5px;
+	margin-left: 7px;
+	border: 1px solid black;
+	float: left;
+}
+div#encabezado div#oferta_cliente_op div#dtofertaclienteop_wrapper.dataTables_wrapper{
+	min-height: 200px;
+}
+div#encabezado div#oferta_cliente_op input#bmcredito{
+	width:110px;
+	border:none;
+	background-color: #888888;
+	color: #FFFFFF;
+	border-radius: 2px;
+	border: 1px solid black;
+}
+
+div#encabezado div#oferta_cliente_op input#bmcredito:hover{
+	cursor: pointer;
+	background-color: #AAAAAA;
+	color: #000000;	
+}
+
+div#contenido div#subasat_rem {
+	width: 1248px;
+	height: 348px;
+	float: left;
+	border: 1px solid black;
+}
+div#contenido div#subasat_rem div#divlote_rem{
+	width: 100px;
+	height: 329px;
+	border: 1px solid black;
+	float: left;
+}
+div#contenido div#subasat_rem div#divlote_rem div#lote_rem{
+	width: 100px;
+	height: 306px;
+	overflow: scroll;
+	overflow-x: hidden;	
+}
+div#contenido div#subasat_rem div#divlote_rem div#refrescarlotes{
+	float: left;
+	margin: 0;
+}
+div#contenido div#subasat_rem div#divlote_rem div#refrescarlotes input#btnrefrescarlotes{
+	margin: 2px 2px 0 2px;	
+	border: 1px solid black;
+	width: 90px;
+	border-radius: 3px;
+}
+div#contenido div#subasat_rem div#divlote_rem div#refrescarlotes input#btnrefrescarlotes:hover{
+	border:none;	
+	background-color: #444444;
+	color: #FFFFFF;
+}
+div#contenido div#subasat_rem div#lote_rem table#dtlotes.dataTable tbody tr.odd{
+	background-color:#3399CC;	
+}
+div#contenido div#subasat_rem div#lote_rem table#dtlotes.dataTable tbody tr.even td input[type="button"]:nth-child(1){
+	background-color:#CCCCCC;
+	border:none;
+	width:70px;
+	margin: 2px 0 2px -6px;
+	cursor: pointer;
+}
+div#contenido div#subasat_rem div#lote_rem table#dtlotes.dataTable tbody tr.odd td input[type="button"]:nth-child(odd){
+	background-color:#3399CC;	
+	border:none;
+	width:70px;
+	color: black;
+	margin: 2px 0 2px -6px;
+	cursor: pointer;
+}
+div#contenido div#subasat_rem div#ctrlofertachat{
+	width: 1140px;
+	height: 346px;
+	margin-left: 5px;
+	display: inline;
+	float: left;	
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#control_rem{
+	width: 1142px;	
+	height: 65px;	
+	border: 1px solid black;	
+	margin-bottom: 0;	
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#control_rem div#botones_rem{
+	width: 150px;
+	padding: 5px 20px;
+	float: left;
+	height: 63px;
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#control_rem div#botones_rem input[type="submit"]{
+	margin-bottom: 10px;
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#control_rem div#tipoprecio{
+	padding-left: 10px;
+	padding-top: 20px;
+	width: 150px;
+	float: left;
+	height: 63px;
+	border-left: 1px solid black;
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#control_rem div#tipoprecio label{
+	font-size: 14px;
+	margin-left: 15px; 	
+	margin-bottom: 10px;
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#control_rem div#tipoprecio select#selecttipoprecio{
+	width: 125px;	
+	border: 1px solid black;
+	font-size: 14px;	
+}
+
+div#contenido div#subasat_rem div#ctrlofertachat div#control_rem div#incremento_rem{	
+	float: left;
+	height: 63px;
+	width: 240px;	
+	border-left: 1px solid black;
+	padding-left: 10px;
+}
+
+div#contenido div#subasat_rem div#ctrlofertachat div#control_rem div#incremento_rem input#btninc1,
+div#contenido div#subasat_rem div#ctrlofertachat div#control_rem div#incremento_rem input#btninc2,
+div#contenido div#subasat_rem div#ctrlofertachat div#control_rem div#incremento_rem input#btninc3{
+	margin-top: 10px;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	border: 1px solid black;
+	background: #f6e6b4; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #f6e6b4 17%, #ed9017 98%, #ed9017 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(17%,#f6e6b4), color-stop(98%,#ed9017), color-stop(100%,#ed9017)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #f6e6b4 17%,#ed9017 98%,#ed9017 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #f6e6b4 17%,#ed9017 98%,#ed9017 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #f6e6b4 17%,#ed9017 98%,#ed9017 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #f6e6b4 17%,#ed9017 98%,#ed9017 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#control_rem div#incremento_rem input#txtinc{
+	margin-top: -20px;
+	width: 70px;
+	border: 1px solid black;
+	padding-top: 1px;
+	margin-left: 20px;
+	font-size: 16px;
+	text-align: center;
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#control_rem div#incremento_rem input#btninc{
+	width: 70px;
+	cursor: pointer;	
+	border-radius: 3px;
+	margin-top: -10px;	
+	border:1px solid black;
+	margin-left: 149px;
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#control_rem div#detalle_hacienda_rem{
+	height: 63px;	
+	margin-left:724px;
+	border-left: 1px solid black;
+	overflow: scroll;
+	overflow-x: hidden;	
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#control_rem div#precioinicial_rem{
+	width: 150px;
+	border-left: 1px solid black;
+	padding-left: 10px;
+	height: 63px;
+	float: left;
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#control_rem div#precioinicial_rem input#txtprecioinicial{
+	margin-top: 5px;
+	width: 130px;
+	border: 1px solid black;
+	font-size: 16px;
+	text-align: center;
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#control_rem div#precioinicial_rem input#btnprecioinicial{
+	width: 130px;
+	cursor: pointer;	
+	border-radius: 3px;
+	margin-top: 4px;	
+	border:1px solid black;
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#control_rem div#precioinicial_rem input#btnprecioinicial:hover{
+	border:none;	
+	background-color: #444444;
+	color: #FFFFFF;
+}
+div#contenido div#subasat_rem div#control_rem div#botones_rem input#btnbajarmartillo{
+	display: block;
+	width: 100px;
+	cursor: pointer;	
+	border-radius: 3px;
+	border:none;
+	background-color: yellow;
+	float: left;
+}
+div#contenido div#subasat_rem div#control_rem div#botones_rem input#btncerrarsubasta{	
+	display: block;
+	width: 100px;	
+	cursor: pointer;
+	color: white;
+	background-color: red;
+	margin-left: 15px;
+	border-radius: 3px;
+	border:none;
+}
+div#contenido div#subasat_rem div#control_rem div#botones_rem input#btnpasarlote{	
+	display: block;
+	width: 100px;
+	cursor: pointer;	
+	border-radius: 3px;
+	border:none;
+	color: #FFFFFF;
+	background-color: #333333;
+	float: left;
+}
+div#contenido div#subasat_rem div#control_rem div#botones_rem input#btnrechazar{
+	width: 100px;
+	cursor: pointer;	
+	color: white;
+	background-color: red;
+}
+div#contenido div#subasat_rem div#control_rem div#botones_rem input#btnaceptar{
+	width: 100px;	
+	background-color: green;
+	color: white;	
+	cursor: pointer;	
+}
+div#encabezado div#chatrem div#oferta_rem{		
+	height: 58px;	
+	border: 1px solid black;
+    margin-top: -6px;
+}
+div#encabezado div#chatrem div#oferta_rem label{
+	font-size: 20px;
+	margin-top: -30px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+div#encabezado div#chatrem div#oferta_rem input#txtmontor{
+	border: none;
+	padding-left: 8px;
+	margin-left: 8px;	
+	font-weight: bold;
+	font-size: 14px;
+	width: 90px;
+}
+div#encabezado div#chatrem div#oferta_rem input#txtoferente{
+	border: none;
+	padding-left: 8px;
+	margin-left: 8px;	
+	font-weight: bold;
+	font-size: 14px;
+	width: 220px;
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#listado_historico_rem{
+	margin-top: 10px;
+	width: 400px;
+	height: 260px;	
+	border: 1px solid black;
+	float: left;
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#divusuariosrem{
+	width: 300px;
+	height: 234px;
+	margin-left: 8px;
+	float: left;
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#usuarios_rem{
+	margin-top: 10px;
+	width: 300px;
+	height: 234px;
+	/*margin-left: -210px;*/
+	border: 1px solid black;
+	overflow: scroll;
+	overflow-x: hidden;	
+	float: left;
+
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#usuarios{
+	margin-top: 10px;
+	width: 300px;
+	height: 260px;
+	margin-left: -210px;
+	border: 1px solid black;
+	overflow: scroll;
+	float: left;
+	overflow-x: hidden;	
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#usuarios_rem input[type="submit"]{
+	margin: 3px 5px 0 5px;
+	color: #111111;
+	border: none;
+	width: 170px;
+	height: 25px;
+	background-color: none;
+
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#usuarios input[type="submit"]{
+	margin: 3px 5px 0 5px;
+	color: #FFFFFF;
+	border: none;
+	width: 170px;
+	height: 25px;
+	background-color:#3399CC;
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#totalconectados_rem{
+	border: 1px solid black;
+	background-color:  #99CC99;
+	text-align: center;
+	width: 300px;
+	height: 26px;
+	/*margin-left: 405px;*/
+	padding-top: 2px;
+	font-weight: bold;
+	margin-top: 243px;
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#usuarios_rem input[type="submit"]{
+	margin: 3px 5px 0 3px;
+	color: #FFFFFF;
+	border: none;
+	width: 273px;
+	height: 25px;
+	background-color:#3399CC;
+}
+div#contenido div#subasta div#chat div#totalconectados{
+	border: 1px solid black;
+	background-color:  #99CC99;
+	text-align: center;
+	width: 129px;
+	height: 26px;
+	margin-left: 434px;
+	padding-top: 2px;
+	font-weight: bold;
+	margin-top: -1px;	
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#ofertas_rem{
+	margin-top: 10px;
+	width: 420px;
+	height: 260px;
+	margin-left: 7px;
+	border: 1px solid black;
+	float: left;
+	overflow: scroll;
+	overflow-x: hidden;	
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#ofertas_rem table#dtofertas.dataTable tr input[type="button"]{
+	background-color:#FFFFFF;
+	border:1px solid black;
+	border-radius: 15px;
+	width:60px;
+	color: #000000;
+	margin: 2px 0 2px -6px;
+	cursor: pointer;	
+	text-align: center;
+}
+div#contenido div#subasat_rem div#ctrlofertachat div#ofertas_rem table#dtofertas.dataTable tbody tr.odd{
+	background-color:#3399CC;	
+}
+div#contenido div#subasat_rem  div#ctrlofertachat div#chat_rem{
+	/*clear: both;*/
+	width: 848px;
+	height: 110px;
+	margin-left: 150px;
+	border: 1px solid red;	
+}
+
+div#encabezado div#myElement_wrapper iframe{
+	width: 400px;
+	height: 341px;
+	float: left;
+	position: relative;
+	overflow: auto;	
+}
+
+
+div#contenido div#subasta div#videolote{
+	width: 614px; 
+	height: 341px;
+	margin:5px 0 0 5px;
+	border: 1px solid black;	
+	float: left;
+}
+div#contenido div#myElement_wrapper object#UstreamViewer{
+	position: relative; 
+	width: 614px; 
+	height: 341px;
+	clear: both;
+}
+div#contenido div#subasta div#myElement_wrapper object#myElement{
+	position: relative; 
+	width: 614px; 
+	height: 341px;
+	margin:5px 0 0 5px;
+	border: 1px solid black;
+	float: left;
+}
+div#encabezado div#chatrem{
+	height: 227px;
+	float: left;
+}
+div#encabezado div#chatrem div#chat_rem{
+	height: 176px;
+}
+div#encabezado div#chatrem div#chat_rem div#chat{
+	margin-left: 0px;
+	height: 0px;
+	border: none;
+}
+div#encabezado div#chatrem div#chat_rem div#chat div#charla{
+	width: 500px;
+	height: 176px;	
+	border: 1px solid black;
+	overflow: scroll;
+	overflow-x: hidden;
+	float: left;
+	margin-top: -5px;
+}
+
+.usuario{
+	color:blue;
+	font-weight: bold;
+}
+.bot{
+	color:green;
+	font-weight: bold;
+}
+div#titulochat{
+	height: 20px;
+	width: 367px;
+	margin: 0 0 -6px 5px;
+	background-color: #5da2bd;
+	color: #FFFFFF;
+	border:1px solid black;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+}
+div#titulooperadores{
+	height: 20px;
+	width: 121px;
+	margin: 0 0 -6px 12px;
+	background-color: #5da2bd;
+	color: #FFFFFF;
+	border:1px solid black;
+	text-align: center;
+	font-weight: bold;
+	float: left;	
+}
+div#tituloofertas{
+	height: 20px;
+	width: 350px;
+	margin: 0 0 -6px 5px;
+	background-color: #5da2bd;
+	color: #FFFFFF;
+	border:1px solid black;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+}
+div#tituloinfolote{
+	height: 20px;
+	width: 368px;	
+	margin: 0 0 -6px 867px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #5da2bd;
+	color: #FFFFFF;
+	border:1px solid black;
+}
+div#encabezado div#chat{
+	width: 500px;
+	height: 290px;
+	margin:0px 0 0 5px;
+	border: 1px solid black;
+	float: left;	
+}
+div#encabezado div#chat div#charla{
+	width: 378px;
+	height: 255px;
+	padding-left: 10px;
+	padding-right: 10px;	
+	overflow: scroll;
+	overflow-x: hidden;	
+	float: left;
+}
+div#encabezado div#chat div#usuarios{
+	width: 120px;
+	height: 255px;	
+	border: 1px solid black;
+	overflow: scroll;
+	overflow-x: hidden;
+	float: left;	
+}
+div#encabezado div#chat div#mensaje{
+	width: 500px;
+	height: 33px;	
+	
+}
+div#encabezado div#chat div#mensaje input#txtmsg{	
+	width: 435px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+div#encabezado div#chat div#mensaje input#btnmsg{
+	border:none;
+	width: 50px;
+}
+
+div#encabezado div#chat div#mensaje input#btnmsg:hover{
+	cursor: pointer;
+}
+div#encabezado div#oferta{
+	width: 350px;
+	height: 130px;
+	margin:0px 0 0 5px;
+	border: 1px solid black;
+	background-color: #999999;
+	float: left;
+}
+div#encabezado div#oferta div#ultimaoferta div.clsuo,
+div#encabezado div#oferta_op div#ultimaoferta div.clsuo_op{
+
+}
+div#encabezado div#oferta div#ultimaoferta div.clsuo label,
+div#encabezado div#oferta_op div#ultimaoferta div.clsuo_op label{
+	display: block;
+	float: left;
+	margin-right: 5px;
+	margin-left: 3px;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #EEEEEE;
+}
+div#encabezado div#oferta div#ultimaoferta div.clsuo input#txtuo,
+div#encabezado div#oferta_op div#ultimaoferta div.clsuo_op input#txtuo_op{
+	width: 140px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight:bold;	
+	text-align: center;
+	background-color: #999999;
+	border: none;	
+	color: rgb(139,0,0);
+	z-index: 999;
+}
+div#encabezado div#oferta div#monto{
+	border: 1px solid black;
+}
+div#encabezado div#oferta div#monto input#txtmonto{
+	width: 110px;		
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight:bold;	
+	text-align: center;
+	border: none;
+	background-color: #99CC99;
+	color: black;	
+}
+
+div#encabezado div#oferta div#monto input#btnmontos{
+	width: 50px;	
+	font-size: 20px;
+	cursor: pointer;
+	border: none;	
+}
+div#encabezado div#oferta div#monto input#btnmontob{
+	width: 50px;	
+	font-size: 20px;
+	cursor: pointer;
+	border: none;	
+	margin-left: 60px;
+}
+
+div#encabezado div#oferta div#ofertar input#btnofertar{
+	width: 150px;
+	margin-left: 100px;	
+	margin-top: 4px;
+	font-size: 20px;
+	font-weight:bold;	
+	cursor: pointer;
+	border: none;
+	border:1px solid #FFFFFF;	
+    border-radius: 5px;
+}
+
+div#encabezado div#oferta div#desarrollo_sub{
+	width: 350px;
+	height: 155px;
+	margin: 0;
+	border: 1px solid black;
+	overflow: scroll;
+	float:left;
+	overflow-x: hidden;
+}
+div#encabezado div#desarrollo_sub{
+	width: 475px;
+	height: 295px;
+	margin:0px 0 0 5px;
+	border: 1px solid black;
+	overflow: scroll;
+	float:left;
+	overflow-x: hidden;
+}
+div#encabezado_p{
+	min-height: 520px;
+	margin-left: 5px;
+	clear: both;
+}
+div#encabezado_p div#videolote{
+	width: 1383px; 
+	height: 737px;	
+	border: 1px solid black;
+	float: left;
+}
+div#encabezado_p div#oferta{
+	border: 1px solid #000000;
+	width: 458px;
+	height: 200px;
+	margin-left: 1388px;	
+}
+div#encabezado_p div#oferta div#ultimaoferta div.clsuo label{		
+	width:450px;
+	height: 100px;
+	text-align:center;
+	display: block;
+	font-size: 30px;
+	margin-bottom: 0;
+}
+div#encabezado_p div#oferta div#ultimaoferta div.clsuo input#txtuo{
+	border:none;	
+	width:450px;	
+	text-align:center;
+	display: block;
+	margin-bottom: 0;
+	font-size: 38px;
+	color: rgb(139,0,0);
+	font-weight: bold;
+	background-color:inherit;
+}
+div#encabezado_p div#infolote_clic1{
+	border: 1px solid black;	
+	height: 200px;
+	width: 458px;
+	margin-left: 1388px;
+	margin-top: -1px;
+	padding-left: 5px;	
+}
+div#encabezado_p div#infolote_clic1 p{
+	height: 20px;
+	margin-bottom: 2px;
+	font-size: 18px;
+}
+div#encabezado_p div#infolote_clic2{
+	border: 1px solid black;	
+	height: 200px;
+	width: 458px;
+	margin-top: -2px;
+	padding-left: 5px;
+	margin-left: 1388px;
+}
+div#encabezado_p div#infolote_clic2 p{
+	height: 20px;
+	margin-bottom: 2px;
+	font-size: 18px;
+}
+div#encabezado_p div#producto{
+	width: 1383px;
+	height: 200px;
+	margin-top:5px;
+	border: 1px solid black;
+	background-color: #5da2bd;
+	color: #FFFFFF;	
+	overflow: scroll;
+	float: left;
+	overflow-x: hidden;	
+	overflow-y: hidden;	
+}
+div#encabezado_p div#titulovideo{
+	height: 20px;
+	width: 1383px;
+	margin: 0 0 -1px 0px;
+	background-color: #5da2bd;
+	color: #FFFFFF;
+	border:1px solid black;
+	text-align: center;
+	font-weight: bold;
+	float: left;	
+}
+div#encabezado_p div#tituloic1{
+	height: 20px;
+	width: 458px;
+	margin: 0 0 -1px 1388px;
+	background-color: #5da2bd;
+	color: #FFFFFF;
+	border:1px solid black;
+	text-align: center;
+	font-weight: bold;	
+}
+div#encabezado_p div#titulooferta{
+	height: 20px;
+	width: 458px;
+	margin: 0 0 -1px 1388px;
+	background-color: #5da2bd;
+	color: #FFFFFF;
+	border:1px solid black;
+	text-align: center;
+	font-weight: bold;
+}
+div#encabezado_p div#tituloic2{
+	height: 20px;
+	width: 458px;
+	margin: 0 0 -1px 1388px;
+	background-color: #5da2bd;
+	color: #FFFFFF;
+	border:1px solid black;
+	text-align: center;
+	font-weight: bold;	
+}
+div#encabezado_p div#producto div#dtlotecatalogo_wrapper.dataTables_wrapper.form-inline.dt-bootstrap.no-footer div.dataTables_scroll div.dataTables_scrollHead div.dataTables_scrollHeadInner table.display.dataTable.no-footer{
+	color: #FFFFFF;
+}
+div#menu{
+	
+	border: 1px solid red;
+	width: 100px;
+	margin: 5px 0 5px 0;	
+	float: left;
+}
+
+div#menu ul li input#btnmenu{	
+	border:none;
+	width: 100px;
+	height: 25px;
+	text-align:left;
+	background-color: pink;
+	padding: 0;	
+	margin: 0;
+}
+
+div#menu ul li input#btnmenu:hover{
+	cursor: pointer;
+	background-color: red;
+}
+
+div#contenido div#subasta div#producto{
+	width: 614px;
+	height: 335px;
+	margin:5px 0 0 5px;
+	border: 1px solid black;
+	overflow: scroll;
+	float: left;
+	overflow-x: hidden;
+}
+
+div#contenido div#subasta div#chat{
+	width: 565px;
+	height: 340px;
+	margin: 6px 5px 0 5px;	
+	border: 1px solid black;	
+	float: left;	
+}
+
+div#contenido div#subasta div#chat div#charla{
+	width: 435px;
+	height: 255px;	
+	border: 1px solid black;	
+	overflow: scroll;
+	float: left;
+	margin: -1px 0 0 -1px;
+	overflow-x: hidden;
+	padding: 3px;
+}
+div#contenido div#subasta div#chat div#usuarios{
+	width: 129px;
+	height: 255px;	
+	margin-left: 440px;
+	border: 1px solid black;	
+	overflow: scroll;
+	margin: -1px 0 0 0px;
+	overflow-x: hidden;
+}
+
+div#contenido div#subasta div#chat div#mensaje{
+	
+	width: 560px;
+	height: 33px;		
+}
+div#contenido div#subasta div#chat div#mensaje input#txtmsg{	
+	width: 435px;
+	margin-top: 5px;
+	margin-right: 5px;
+	border: 1px solid black;
+}
+
+div#contenido div#subasta div#chat div#mensaje input#btnmsg{
+	width:110px;
+	border:none;
+	background-color: #888888;
+	color: #FFFFFF;
+	border-radius: 2px;
+	border: 1px solid black;
+}
+
+div#contenido div#subasta div#chat div#mensaje input#btnmsg:hover{
+	cursor: pointer;
+	background-color: #AAAAAA;
+	color: #000000;	
+}
+div#contenido div#subasta div#chat div#usuarios input[type="submit"]{
+	width: 102px;
+	border:none;
+	height: 20px;	
+	font-size: 10px;
+	margin-bottom: 2px;
+}
+div#contenido div#subasta div#chat div#usuarios input[type="submit"]:hover{
+	cursor: pointer;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div.ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix div.ui-dialog-buttonset button{
+	width: 80px;
+}
+div#contenido div#subasta div#producto div#dtlotecatalogo_wrapper.dataTables_wrapper{
+	margin:5px 0 0 5px;	
+}
+div#contenido div#subasta div#producto table#dtlotecatalogo.dataTable tbody tr.odd,
+div#contenido div#subasta div#producto table#dtlotecatalogo.dataTable tbody tr.even{
+	font-size: 14px;
+}
+div#contenido div#subasta div#creditos{
+	width: 665px;
+	height: 340px;
+	border: 1px solid black;	
+	margin: 6px 5px 0 0;
+	float: right;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+div#contenido div#subasta div#creditos div#dtcredito_wrapper.dataTables_wrapper table#dtcredito.dataTable tbody tr.odd,	
+div#contenido div#subasta div#creditos div#dtcredito_wrapper.dataTables_wrapper table#dtcredito.dataTable tbody tr.even,
+div#contenido div#subasta div#creditos table#dtcredito.dataTable tbody tr.odd,
+div#contenido div#subasta div#creditos table#dtcredito.dataTable tbody tr.even{
+	font-size: 14px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#detallelote.ui-dialog-content.ui-widget-content div#tabs.ui-tabs.ui-widget.ui-widget-content.ui-corner-all div#cajadetallelote div#cajahacienda.ui-tabs-panel.ui-widget-content.ui-corner-bottom div.clsdetallelote p{
+	font-size: 16px;	
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#detallelote.ui-dialog-content.ui-widget-content div.clsdetallelote label{
+	display: block;	
+	width: 120px;
+	margin-left: 5px;
+	float: left;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#detallelote.ui-dialog-content.ui-widget-content div.clsdetallelote{
+	width: 280px;
+	height: 25px;
+	border: 1px solid black;
+	margin-left: 10px;
+	margin-bottom: -1px;
+	float: left;
+}
+div.ui-dialog div#detallelote.ui-dialog-content input[type="text"]{
+	display: block;		
+	border: none;
+	background-color: #FFFFFF;
+	color: #000000;
+	margin-bottom: 5px;
+	float: left;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#detallelote.ui-dialog-content.ui-widget-content div#tabs.ui-tabs.ui-widget.ui-widget-content.ui-corner-all{
+	height: 350px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#detallelote.ui-dialog-content.ui-widget-content div#tabs.ui-tabs.ui-widget.ui-widget-content.ui-corner-all div#fotosdetallelote.ui-tabs-panel.ui-widget-content.ui-corner-bottom{
+	margin: 0 auto;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#detallelote.ui-dialog-content.ui-widget-content div#fotosdetallelote{
+	clear: both;	
+}
+
+div.ui-dialog div#detallelote.ui-dialog-content input[type="image"]{
+	margin-top: 30px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#detallelote.ui-dialog-content.ui-widget-content iframe#idiframe{
+	margin: 15px 0 0 215px;
+/*
+	margin-left: 100px;
+	margin-top: 15px;
+*/
+}
+div#contenido div#divusuarios{
+	width: 1024px;
+	height: 340px;
+	border: 1px solid black;	
+	margin: 4px 5px 0 112px;	
+	overflow: scroll;
+	overflow-x: hidden;
+	float: left;
+}
+div#contenido div#divusuarios div#addusuario input#btnaddusuario{
+	border:1px solid black;	
+    border-radius: 5px;
+	width: 85px;
+	height: 25px;
+	margin: 5px 10px 5px 910px;
+	background-color: #336666;
+	color:#FFFFFF;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datosusuario{
+	border-bottom:1px solid black;	
+	margin: 5px 5px 0 10px;
+	padding: 5px 0 0 5px;
+	width: 330px;	
+	height: 180px;	
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datoscliente{
+	border-bottom:1px solid black;	
+	margin: 5px 5px 0 5px;
+	padding: 5px 0 0 10px;
+	width: 330px;	
+	height: 150px;	
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datosestablecimiento{
+	border-bottom:1px solid black;	
+	margin: 5px 5px 0 5px;
+	padding: 5px 0 0 10px;
+	width: 330px;	
+	height: 180px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datosusuario div.divclsusuariossmall{
+	width: 400px;
+	margin-right: 10px;
+	float: left;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datosusuario div.divclsusuarios,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datoscliente div.divclsusuarios,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datosestablecimiento div.divclsusuarios{
+	width: 350px;
+	float: left;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datosusuario div.divclsusuarios label,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datoscliente div.divclsusuarios label,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datosestablecimiento div.divclsusuarios label{
+	width: 100px;
+	display: block;
+	float: left;
+	margin-bottom: 4px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datosusuario div.divclsusuarios input[type="text"],
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datosusuario div.divclsusuarios select,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datoscliente div.divclsusuarios input[type="text"],
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datoscliente div.divclsusuarios select,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datosestablecimiento div.divclsusuarios input[type="text"],
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datosestablecimiento div.divclsusuarios select{
+	border: 1px solid black;
+	width: 180px;
+}
+div#contenido div#seguridadModal.modal.fade.in div div.modal-content div.modal-body form#formusuario div#datoscliente div.col-xs-12 div#testablecimientos_wrapper.dataTables_wrapper{
+	margin-bottom: 10px;
+}
+div#contenido div#abmusuario form#formusuario div.divclsusuariossmall label{
+	width: 100px;
+	display: block;
+	float: left;	
+	margin-bottom: 4px;
+}
+div#contenido div#abmusuario form#formusuario div.divclsusuarios input[type="text"]{	
+	border: none;
+	width: 180px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datosusuario h1,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datoscliente h1,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#datosestablecimiento h1{
+	margin-top: -10px;
+	font-size: 16px;
+}
+div#contenido div#abmusuario form#formusuario div.divclsusuariossmall input[type="text"]{
+	border: none;
+	width: 150px;
+}
+div#contenido div#abmusuario form#formusuario div#datoscliente div.divclsusuarios select{
+	border: none;
+	width: 180px;
+}
+div#contenido div#abmusuario form#formusuario div.divclsusuarios select#operador,
+div#contenido div#abmusuario form#formusuario div.divclsusuarios select#perfil{
+	border: none;
+	width: 250px;	
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#btngrabarusuario{
+	height: 40px;
+	margin-top: 10px;	
+	margin-left: 130px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#abmusuario.ui-dialog-content.ui-widget-content form#formusuario div#btngrabarusuario input[type="button"]{
+	border:1px solid black;	
+    border-radius: 5px;
+    margin: 5px 5px;
+    width: 85px;
+    height: 30px;
+}
+div#contenido div#tblremates{
+	width: 850px;
+	height: 340px;
+	border: 1px solid black;	
+	margin: 4px 5px 0 5px;	
+	overflow: scroll;
+	overflow-x: hidden;
+	float: left;
+}
+div#contenido div#tblremates div#addremate input#btnaddremate{
+	border:1px solid black;	
+    border-radius: 5px;
+	width: 85px;
+	height: 25px;
+	margin: 5px 10px 5px 740px;
+	background-color: #336666;
+	color:#FFFFFF;	
+}
+div#contenido div#abmremate{
+	border:1px solid black;	
+	margin: 5px 5px 0 875px;
+	padding: 5px 0 0 5px;
+	width: 350px;
+	height: 340px;	
+}
+div#contenido div#abmremate form#formremate label{
+	width: 100px;
+	margin-bottom: 10px;
+}
+div#contenido div#abmremate form#formremate input[type="text"],
+div#contenido div#abmremate form#formremate select#tiporemate{
+	border: none;
+	width: 230px;
+}
+div#contenido div#abmremate form#formremate.regular-checkbox {
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+div#contenido div#abmremate form#formremate.regular-checkbox:active, 
+div#contenido div#abmremate form#formremate.regular-checkbox:checked:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+div#contenido div#abmremate form#formremate.regular-checkbox:checked {
+	background-color: #e9ecee;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+div#contenido div#abmremate form#formremate.regular-checkbox:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #99a1a7;
+}
+div#contenido div#abmremate form#formremate span.clsconcepto{
+	border:1px solid red;
+	padding-top: 5px;
+	background-color: #336666;
+}
+div#contenido div#abmremate form#formremate label.lblconcepto{
+	width: 20px;
+}
+div#contenido div#abmremate form#formremate input#chkconcepto1,
+div#contenido div#abmremate form#formremate input#chkconcepto2,
+div#contenido div#abmremate form#formremate input#chkconcepto3,
+div#contenido div#abmremate form#formremate input#chkconcepto4,
+div#contenido div#abmremate form#formremate input#chkconcepto5{
+}
+div#contenido div#abmremate form#formremate textarea{
+	border: none;
+}
+div#contenido div#abmremate form#formremate div#btngrabarremate{
+	padding-left: 120px;
+}
+div#contenido div#abmremate form#formremate div#btngrabarremate input[type="button"]{
+	border:1px solid black;	
+    border-radius: 5px;
+    margin: 5px 5px;
+    width: 85px;
+    height: 30px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#tbllotes.ui-dialog-content.ui-widget-content div#addlote input#btnaddlote{
+	border:1px solid black;	
+    border-radius: 5px;
+	width: 85px;
+	height: 25px;
+	margin: 5px 10px 5px 890px;
+	background-color: #336666;
+	color:#FFFFFF;	
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#divlotes.ui-dialog-content.ui-widget-content{
+	width: 380px;
+	padding-left: 10px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#divlotes.ui-dialog-content.ui-widget-content form#formlotes label{
+	width: 130px;
+	margin-bottom: 10px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#divlotes.ui-dialog-content.ui-widget-content form#formlotes input[type="text"]{
+	border: 1px solid black;
+	width: 80px;
+	text-align: right;
+	padding-right: 3px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#divlotes.ui-dialog-content.ui-widget-content form#formlotes select{
+	border: 1px solid black;
+	width: 150px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#divlotes.ui-dialog-content.ui-widget-content form#formlotes div#txtincremento1,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#divlotes.ui-dialog-content.ui-widget-content form#formlotes div#txtincremento2,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#divlotes.ui-dialog-content.ui-widget-content form#formlotes div#txtincremento3{
+	margin-right: 4px;
+	font-weight: bold;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#divlotes.ui-dialog-content.ui-widget-content form#formlotes div.clsabmlote div#txtincremento1 input#txtincremento_1,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#divlotes.ui-dialog-content.ui-widget-content form#formlotes div.clsabmlote div#txtincremento2 input#txtincremento_2,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#divlotes.ui-dialog-content.ui-widget-content form#formlotes div.clsabmlote div#txtincremento3 input#txtincremento_3{
+	border: 1px solid black;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+div#contenido div#divthacienda{
+	width: 1238px;
+	height: 340px;
+	margin: 4px 5px 0 5px;	
+	overflow: scroll;
+	overflow-x: hidden;
+	float: left;	
+}
+div#contenido div#divthacienda div#addhacienda input#btnaddhacienda{
+	border:1px solid black;	
+    border-radius: 5px;
+	width: 85px;
+	height: 25px;
+	margin: 5px 10px 5px 1130px;
+	background-color: #336666;
+	color:#FFFFFF;	
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divevaluador div.divclshacienda,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divvendedor div.divclshacienda,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#hacienda0 div.divclshacienda,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#hacienda1 div.divclshacienda,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divsanidad div.divclshacienda,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divmadres div.divclshacienda,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divformpesajei div.divclshacienda,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divformpesajed div.divclshacienda,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divevaluacion div.divclshacienda,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divcondvta div.divclshacienda{
+	width: 400px;
+	height: 25px;
+	float: left;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divvendedor h1,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#hacienda0 h1,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#hacienda1 h1,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divsanidad h1,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divmadres h1,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divformpesajei h1,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divformpesajed h1,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divevaluacion h1,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divcondvta h1{
+	font-size: 22px;	
+	text-align: center;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divmadres h3,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divformpesajei h3,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divformpesajed h3{
+	font-size: 18px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divevaluador div.divclshacienda label,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divvendedor div.divclshacienda label,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#hacienda0 div.divclshacienda label,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#hacienda1 div.divclshacienda label,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divsanidad div.divclshacienda label,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divmadres div.divclshacienda label,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divformpesajei div.divclshacienda label,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divformpesajed div.divclshacienda label,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divevaluacion div.divclshacienda label,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divcondvta div.divclshacienda label{
+	display: block;
+	width: 200px;
+	float: left;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divevaluador div.divclshacienda input[type="text"],
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divevaluador div.divclshacienda select,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divvendedor div.divclshacienda input[type="text"],
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divvendedor div.divclshacienda select,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divsanidad div.divclshacienda input[type="text"],
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divsanidad div.divclshacienda select,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#hacienda0 div.divclshacienda input[type="text"],
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#hacienda0 div.divclshacienda select,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#hacienda1 div.divclshacienda input[type="text"],
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#hacienda1 div.divclshacienda select,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divmadres div.divclshacienda input[type="text"],
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divmadres div.divclshacienda select,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divformpesajei div.divclshacienda input[type="text"],
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divformpesajei div.divclshacienda select,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divformpesajed div.divclshacienda input[type="text"],
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divformpesajed div.divclshacienda select,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divevaluacion div.divclshacienda input[type="text"],
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divevaluacion div.divclshacienda select,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divcondvta div.divclshacienda input[type="text"],
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divcondvta div.divclshacienda select{
+	width: 200px;
+	border: 1px solid black;	
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divevaluacion div.divclshacienda textarea#evaobservaciones,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#hacienda0 div.divclshacienda textarea#observaciones,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divformpesajed div.divclshacienda textarea#observacionesp{
+	width: 200px;
+	border: 1px solid black;
+	resize:none;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divevaluador{
+	width: 430px;
+	height: 70px;
+	border-bottom: 1px solid black;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divvendedor{
+	width: 430px;
+	height: 185px;
+	border-bottom: 1px solid black;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#hacienda0{
+	width: 430px;
+	height: 630px;
+	border-bottom: 1px solid black;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divsanidad{
+	width: 430px;
+	height: 95px;
+	border-bottom: 1px solid black;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divmadres{
+	width: 430px;
+	height: 390px;
+	border-bottom: 1px solid black;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divformpesajei{
+	width: 435px;
+	height: 260px;
+	border-bottom: 1px solid black;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divformpesajed{
+	width: 435px;
+	height: 450px;
+	border-bottom: 1px solid black;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divevaluacion{
+	width: 430px;
+	height: 220px;
+	border-bottom: 1px solid black;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divcondvta{
+	width: 430px;
+	height: 150px;
+	border-bottom: 1px solid black;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divevaluador div.haciendaobliga span,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divvendedor div.haciendaobliga span,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#hacienda0 div.haciendaobliga span,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divcondvta div.haciendaobliga span,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divformpesajei div.haciendaobliga span,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#divformpesajed div.haciendaobliga span{
+	display: block;
+	color:red;
+	width: 25px;
+	font-weight:bold;
+	margin-left: 5px;
+	padding: 0;
+	float: left;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divhacienda.ui-dialog-content.ui-widget-content form#formhacienda div#btnhacienda{
+	margin: 5px 10px 5px 230px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content div.multimedia{
+	width: 680px;
+	height: 30px;	
+	max-width: 680px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content{
+	width: 350px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content form#formularioi.formularioimg div.multimedia input[type="file"]{
+	border: none;
+	line-height: 0;
+	font-size: 14px;
+	position: absolute;
+	margin: 0;
+	padding:0;
+	left:0;
+	width: 150px;
+	height: 25px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content form#formularioi.formularioimg div#divmultimediasalir input[type="button"]{
+	border:1px solid black;	
+	text-align: center;
+	background-color: #DDDDDD;
+	color: #000000;	
+	border-radius: 5px;
+	margin-right: 10px;
+	padding-top: 2px;
+	width: 150px;
+	height: 35px;
+	font-size: 12px;
+	font-style:normal;
+	cursor: pointer;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content form#formularioi.formularioimg div#divmultimediasalir input[type="button"]:hover{
+	background-color: #CCCCCC;
+	color: #000000;	
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content input[type="text"]{
+	border: 1px solid black;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content label:hover{
+	background-color: #338888;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content form#formularioi.formularioimg div.multimedia p{
+	display: block;
+	height: 10px;
+
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content form#formularioi.formularioimg div#fotosvideo{
+	height: 200px;
+	border: 1px solid black;
+	width: 770px;
+	background: black;
+	overflow: hidden;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content form#formularioi.formularioimg div#fotosvideo div#imagen1,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content form#formularioi.formularioimg div#fotosvideo div#imagen2,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content form#formularioi.formularioimg div#fotosvideo div#imagen3,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content form#formularioi.formularioimg div#fotosvideo div#imagen4{
+	float: left;
+	width: 190px;
+	height: 190px;
+	border: 1px solid black;	
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#loteshacienda.ui-dialog-content.ui-widget-content label input#cantidadactual,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#loteshacienda.ui-dialog-content.ui-widget-content label input#cantidadnueva,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#loteshacienda.ui-dialog-content.ui-widget-content label input#restoactual,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#loteshacienda.ui-dialog-content.ui-widget-content label input#restonuevo{
+	width: 25px;
+	border: 1px solid black;
+	text-align: center;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#loteshacienda.ui-dialog-content.ui-widget-content div#lineatitulo{
+	border-bottom: 1px solid black;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#loteshacienda.ui-dialog-content.ui-widget-content{		
+	overflow: scroll;
+	overflow-x: hidden;	
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#loteshacienda.ui-dialog-content.ui-widget-content div.clsloteshacienda{
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#loteshacienda.ui-dialog-content.ui-widget-content div.clsloteshacienda div.clslotehacienda{
+	
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#loteshacienda.ui-dialog-content.ui-widget-content div.clsloteshacienda div.clslotehacienda label{
+	display: block;	
+	width: 300px;
+	float: left;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#loteshacienda.ui-dialog-content.ui-widget-content div.clsloteshacienda div.clslotehacienda input[type="text"]{
+	width: 25px;
+	border: 1px solid black;
+	text-align: right;
+	padding-right: 5px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#detallelote.ui-dialog-content.ui-widget-content div#fotosdetallelote img{
+	float:left;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content form#formularioi.formularioimg div#fotosvideo div#imagen1 a img.fotosvideoimg{
+	width: 190px;
+	height: 190px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content form#formularioi.formularioimg div#mensaje_img{
+	background-color: rgba(63, 0,0,.5);
+	width: 770px;
+	border: 1px solid black;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 11px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content form#formularioi.formularioimg div#mensaje_img p span{
+	background-color: rgba(0, 63,0,.5);
+	border: 1px solid black;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 11px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content form#formularioi.formularioimg div#mensaje_img p{
+	display: block;
+	height: 10px;	
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content div#divmultimediasalir{
+	width: 400px;
+	height: 70px;
+	margin: 5px 5px 0 5px;
+
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content div#divmultimediasalir input[type="submit"]{
+	margin-left: 10px;
+	border:1px solid black;	
+    border-radius: 5px;
+    width: 85px;
+    height: 30px;	
+    float: left;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content form#formularioi.formularioimg div#fotosvideo div#imagen1:hover,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content form#formularioi.formularioimg div#fotosvideo div#imagen2:hover,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content form#formularioi.formularioimg div#fotosvideo div#imagen3:hover,
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable div#divmultimedia.ui-dialog-content.ui-widget-content form#formularioi.formularioimg div#fotosvideo div#imagen4:hover{
+	cursor: pointer;
+}
+.messages{
+    float: left;
+    font-family: sans-serif;
+    display: none;
+}
+.info{
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 25px;
+    background: orange;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+.before{
+    padding: 10px;
+    margin-left: 25px;
+    border-radius: 5px;
+    background: blue;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+.success{
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 25px;
+    background:  green;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+.error{
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 25px;
+    background: red;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#tblhaciendalote.ui-dialog-content.ui-widget-content div#addhaciendalote input#btnaddhaciendalote{
+	border:1px solid black;	
+    border-radius: 5px;
+	width: 85px;
+	height: 25px;
+	margin: 5px 10px 5px 1120px;
+	background-color: #336666;
+	color:#FFFFFF;	
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#tbldatoshacienda.ui-dialog-content.ui-widget-content div#addhacienda input#btnaddhacienda{
+	border:1px solid black;	
+    border-radius: 5px;
+	width: 200px;
+	height: 25px;
+	margin: 5px 10px 5px 1005px;
+	background-color: #336666;
+	color:#FFFFFF;	
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#divhaciendalotes.ui-dialog-content.ui-widget-content form#formhaciendalotes div.haciendalotes{
+	width: 380px;
+	float: left;	
+	border-bottom: 1px dashed black; 
+	padding-top: 4px;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#divhaciendalotes.ui-dialog-content.ui-widget-content form#formhaciendalotes label{
+	display: block;
+	width: 200px;
+	float: left;
+}
+div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons.ui-draggable div#divhaciendalotes.ui-dialog-content.ui-widget-content form#formhaciendalotes div.haciendalotes input#txtcantidadh{
+	width: 50px;
+	border: 1px solid black;
+	height: 23px;
+}
+div#contenido div#listalotes{	
+	height: 305px;	
+	width: 1238px;	
+	overflow: scroll;
+	overflow-x: hidden;
+	margin-left: 3px;
+	margin-top: 5px;
+}
+div#contenido div#divmislotes input[type="button"]{
+	border:1px solid black;	
+    border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	background-color: #336666;
+	color: #FFFFFF;
+	margin: 4px 0 0 4px;	
+}
+div#contenido div#listalotes div#detallelotes{
+	margin: 4px 0 0 4px;	
+	width: 1210px;
+	padding-left: 5px; 
+}
+div#contenido div#listalotes div#detallelotes div.dl{
+	width: 286px;
+	height: 100px;
+	border-right: 1px dashed black;
+	margin-left: 5px;
+	float: left;
+}
+div#contenido div#listalotes div#detallelotes div.dl h1{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 2px;
+	background-color: #336666;
+	color: #FFFFFF;
+	border-radius: 3px;
+	margin-left: 0px;
+	margin-right: 5px;
+}
+div#contenido div#listalotes div#detallelotes div.clsitemdetallelote{
+	height: 100px;
+	width: 1210px;
+	border: 1px solid black;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+div#contenido div#listalotes div#detallelotes div#dl1.dl div#dl11,
+div#contenido div#listalotes div#detallelotes div#dl2.dl div#dl21,
+div#contenido div#listalotes div#detallelotes div#dl3.dl div#dl31,
+div#contenido div#listalotes div#detallelotes div#dl4.dl div#dl41{
+	float:left;
+	width: 147px;
+}
+div#contenido div#listalotes div#detallelotes div#btndl input#btndl1{
+	display: block;
+}
+div#pie{
+	clear: both;
+	margin: 5px 0 0 0;	
+	border: 1px solid black;
+	width: 1248px;
+	height: 75px;	
+}
+div#pie div#menu_cli{
+	margin-top: 4px;		
+	float: left;
+}
+div#pie div#menu_cli form ul li{
+	display: inline-block;
+}
+div#pie div#menu_cli form ul li input[type="submit"]{
+	border:1px solid black;	
+    border-radius: 5px;
+	width: 100px;
+	height: 35px;
+	background-color: #336666;
+	color: #FFFFFF;
+	margin: 4px 0 0 4px;
+}
+div#pie div#menu_ope_admin{
+	margin-top: 4px;
+	margin-left: -350px;
+	float: left;
+}
+div#pie div#menu_ope_admin form ul li input[type="submit"]:hover{
+	cursor: pointer;
+}
+div#pie div#menu_ope_admin form ul{
+	margin-left: 350px;	
+}
+div#pie div#menu_ope_admin form ul li{
+	display: inline-block;
+}
+
+div#pie div#menu_ope_admin form ul li input[type="submit"]{
+	border:1px solid black;	
+    border-radius: 5px;
+	width: 100px;
+	height: 35px;
+	background-color: #336666;
+	color: #FFFFFF;
+	margin: 4px 0 0 4px;	
+
+}
+div#pie div#menu_ope_admin form ul li input[type="submit"]:hover{
+	cursor: pointer;
+}
+div#pie div#usuariopie{
+	width: 300px;
+	margin-left: 5px;
+	margin-top: 1px;
+	font-weight: bold;
+	float: left;
+}
+div#pie div#pantallapie{
+	width: 400px;
+	margin-left: 5px;
+	margin-top: 1px;
+	font-weight: bold;
+	padding-left: 280px;
+	padding-top: 15px;
+	height: 55px;
+	float: left;
+}
+.form-group.required .control-label:after {
+  content:" *";
+  color:red;
+}
+
+div#rematesactivo div#producto div#dtlotecatalogo_wrapper.dataTables_wrapper.form-inline.dt-bootstrap.no-footer div.dataTables_scroll div.dataTables_scrollBody table#dtlotecatalogo.display.dataTable.no-footer tbody tr.odd,
+div#rematesactivo div#producto div#dtlotecatalogo_wrapper.dataTables_wrapper.form-inline.dt-bootstrap.no-footer div.dataTables_scroll div.dataTables_scrollBody table#dtlotecatalogo.display.dataTable.no-footer tbody tr.even{
+	font-size: 16px;
+}
+div#rematesactivo div#producto div#dtlotecatalogo_wrapper.dataTables_wrapper.form-inline.dt-bootstrap.no-footer div.dataTables_scroll div.dataTables_scrollHead div.dataTables_scrollHeadInner table.display.dataTable.no-footer thead{
+	font-size: 20px;
+}
+@media screen and (max-width: 370px) {
+	body, div#encabezado, div#contenido, div#pie{
+		width: 360px;
+		height: 130px;
+	}
+	div#encabezado div#chat, div#encabezado div#infolote,
+	div#contenido div#subasta div#videolote, div#contenido div#subasta div#producto,
+	div#pie {		
+  		display: none;
+	}
+}
