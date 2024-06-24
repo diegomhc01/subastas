@@ -1,0 +1,62 @@
+<form role="form" id="formubicacion">
+    <div class="col-xs-12">     
+         <div class="col-xs-2">
+             <div class="form-group" id="ftenencia">            
+               <label class="control-label" for="cmbtenencia">Tenencia:</label>
+                 <select class="form-control" id="cmbtenencia" name="cmbtenencia">
+                    <option value="0" disabled>Seleccione una opción</option>
+                    <option value="1">Propietario</option>
+                    <option value="2">Arrendatario</option>
+                    <option value="3">Ocupante con permiso</option>
+                    <option value="4">Ocupante de hecho</option>
+                    <option value="5">Otra</option>
+                 </select>
+             </div>
+         </div>
+         <div class="col-xs-1"></div>
+         <div class="col-xs-1">
+             <div class="form-group" id="fseccion"> 
+                <label class="control-label" for="txtseccion">Sección:</label>
+                <input type="text" id="txtseccion" name="txtseccion" class="form-control" aria-describedby="basic-addon1">
+            </div>           
+         </div>
+         <div class="col-xs-1">
+             <div class="form-group" id="ffraccion"> 
+                <label class="control-label" for="txtfraccion">Fracción:</label>
+                <input type="text" id="txtfraccion" name="txtfraccion" class="form-control" aria-describedby="basic-addon1">
+             </div>                  
+         </div>        
+         <div class="col-xs-1">
+             <div class="form-group" id="flote"> 
+                <label class="control-label" for="txtlote">Lote:</label>
+                <input type="text" id="txtlote" name="txtlote" class="form-control" aria-describedby="basic-addon1">
+             </div>                          
+         </div>
+         <div class="col-xs-1">
+             <div class="form-group" id="fparcela"> 
+                <label class="control-label" for="txtparcela">Parcela:</label>
+                <input type="text" id="txtparcela" name="txtparcela" class="form-control" aria-describedby="basic-addon1">
+             </div>          
+         </div>
+         <div class="col-xs-1"></div>
+         <div class="col-xs-2">
+             <div class="form-group" id="fpartida"> 
+                <label class="control-label" for="txtpartida">Partida:</label>
+                <input type="text" id="txtpartida" name="txtpartida" class="form-control" aria-describedby="basic-addon1">
+             </div>                      
+         </div>
+         <div class="col-xs-2">
+             <div class="form-group" id="fhectareas"> 
+                <label class="control-label" for="txthectareas">Hectáreas:</label>
+                <input type="text" id="txthectareas" name="txthectareas" class="form-control" aria-describedby="basic-addon1">
+             </div>                                  
+         </div>
+    </div>
+    <div class="col-xs-12">
+        <div class="form-group"> 
+           <button type="button" class="btn btn-primary btn-block" id="btnagregarubicacion">Agregar</button>
+        </div>
+    </div>
+</form>
+ <table id="tubicacion"  class="display" cellspacing="0" width="100%"></table>
+    

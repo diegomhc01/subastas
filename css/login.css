@@ -1,0 +1,86 @@
+@charset "utf-8";
+#login-full-wrapper {
+    position: relative;
+}
+
+
+#login-full-wrapper {
+    /*background: url("images/Fondo1.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0);*/
+    height: 100% !important;
+    position: absolute;
+    width: 100%;
+}
+
+
+#login-page-full .container {
+    margin: 0 auto;
+    max-width: 640px;
+}
+#login-full-wrapper #login-box {
+    border: medium none;
+}
+#login-box {
+    background-clip: padding-box;
+    border-radius: 3px 3px 0 0;
+    margin: 60px auto 20px;
+    max-width: 350px;
+    min-width: 280px;
+    overflow: hidden;
+}
+
+#login-logo {
+    background: none repeat scroll 0 0 #005682;
+    color: #fff;
+    display: block;
+    font-size: 2em;
+    font-weight: 400;
+    padding: 15px 0;
+    text-align: center;
+    text-transform: uppercase;    
+}
+
+#login-box-inner {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 padding-box #fff;
+    border-color: #e1e1e1;
+    border-image: none;
+    border-radius: 0 0 3px 3px;
+    border-style: solid;
+    border-width: 1px 1px 5px;
+    padding: 40px 25px;
+}
+
+#login-box .input-group {
+    margin-bottom: 10px;
+}
+
+#login-box-inner .input-group > .input-group-addon {
+    height: 44px;
+}
+#login-box-inner .input-group > .form-control, #login-box-inner 
+.input-group > .input-group-addon {
+    height: 46px;
+    line-height: 42px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#login-box .input-group .input-group-addon {
+    min-width: 50px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#login-box-inner .input-group > .form-control,
+#login-box-inner .input-group > .input-group-addon {
+    height: 46px;
+    line-height: 42px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#login-box .input-group input {
+    font-weight: 300;
+}
